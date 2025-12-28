@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 for key, value in os.environ.items():
     globals()[key] = value
-    print(f"[+] Env Key: {key}, Value: {value}")
+    # print(f"[+] Env Key: {key}, Value: {value}")
 
 # AWS Provider
 aws_provider = aws.Provider("aws-provider",

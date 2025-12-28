@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 load_dotenv()
 for key, value in os.environ.items():
     globals()[key] = value
-    print(f"[+] Env Key: {key}, Value: {value}")
+    # print(f"[+] Env Key: {key}, Value: {value}")
 
 # Validate DNS_PROVIDER
 DNS_PROVIDER = os.getenv("DNS_PROVIDER", "cloudflare")
