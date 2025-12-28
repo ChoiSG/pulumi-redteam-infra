@@ -1,0 +1,9 @@
+*.pyc
+venv/
+.env
+*.generated
+__pycache__/
+Pulumi.dev.yaml
+*.dev.yaml
+sshkeys/*
+!sshkeys/.placeholder

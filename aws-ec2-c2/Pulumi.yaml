@@ -1,0 +1,11 @@
+name: aws-ec2-c2
+description: AWS EC2-based C2 server from pulumi-redteam-infra
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python

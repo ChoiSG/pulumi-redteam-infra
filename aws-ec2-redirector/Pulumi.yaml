@@ -1,0 +1,11 @@
+name: aws-redirector
+description: AWS EC2 based redirector from pulumi-redteam-infra
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
